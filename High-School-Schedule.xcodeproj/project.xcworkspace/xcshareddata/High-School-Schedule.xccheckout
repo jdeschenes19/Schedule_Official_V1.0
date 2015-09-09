@@ -10,6 +10,8 @@
 	<string>High-School-Schedule</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>13E5BA13E9320C3B0D0A8089BC6359B59D0D91BC</key>
+		<string>https://github.com/jdeschenes19/Schedule_Official_V1.0.git</string>
 		<key>188CB2CDE6BA60E2D81E34CCEA366A368EE0A3D2</key>
 		<string>https://github.com/jdeschenes19/HighSchool-Real-.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>High-School-Schedule.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>188CB2CDE6BA60E2D81E34CCEA366A368EE0A3D2</key>
+		<key>13E5BA13E9320C3B0D0A8089BC6359B59D0D91BC</key>
 		<string>../..</string>
+		<key>188CB2CDE6BA60E2D81E34CCEA366A368EE0A3D2</key>
+		<string>../../../High-School-Schedule</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jdeschenes19/HighSchool-Real-.git</string>
+	<string>https://github.com/jdeschenes19/Schedule_Official_V1.0.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>188CB2CDE6BA60E2D81E34CCEA366A368EE0A3D2</string>
+	<string>13E5BA13E9320C3B0D0A8089BC6359B59D0D91BC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>188CB2CDE6BA60E2D81E34CCEA366A368EE0A3D2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>High-School-Schedule</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13E5BA13E9320C3B0D0A8089BC6359B59D0D91BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HighSchool-Real--master</string>
 		</dict>
 	</array>
 </dict>

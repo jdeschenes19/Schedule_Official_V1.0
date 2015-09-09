@@ -46,16 +46,15 @@ class SecondViewController: UIViewController {
             
         }
         
-        
-        weekday = getDayOfWeek(DateInFormat)!
-        
-        println(classArray)
-        
-        println(classDict)
+        if let weekday = getDayOfWeek(DateInFormat) {
+            
+        } else {
+            
+        }
         
         println(weekday)
         
-        if weekday == 2 || weekday == 7 || weekday == 1 || weekday == 0 {
+        if weekday == 2 || weekday == 7 || weekday == 1 {
             
             classArray.removeAll(keepCapacity: false)
             
@@ -91,7 +90,7 @@ class SecondViewController: UIViewController {
             
             classArray.append(classDict["cPeriod"]!)
             
-            classArray.append(classDict["monXPeriod"]!)
+            classArray.append(classDict["tuesXPeriod"]!)
             
             classArray.append("Lunch")
             
@@ -109,7 +108,7 @@ class SecondViewController: UIViewController {
             
             classArray.append(classDict["ePeriod"]!)
             
-            classArray.append(classDict["tuesXPeriod"]!)
+            classArray.append(classDict["wednesXPeriod"]!)
             
             classArray.append("Lunch")
             
@@ -129,7 +128,7 @@ class SecondViewController: UIViewController {
             
             classArray.append(classDict["cPeriod"]!)
             
-            classArray.append(classDict["wednesXPeriod"]!)
+            classArray.append(classDict["thursXPeriod"]!)
             
             classArray.append("Lunch")
             
@@ -258,7 +257,10 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        classDict = defaults.objectForKey("storedClassDict") as! [String:String]
+        println("CLASS DICT")
+        println(classDict)
+        
+        println(defaults.objectForKey("storedClassDict"))
         
         updateArray()
         

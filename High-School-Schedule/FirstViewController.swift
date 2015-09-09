@@ -19,6 +19,10 @@ class FirstViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        println(classDict)
+        
+        println("View did load")
+        
         if defaults.objectForKey("storedClassArray") == nil {
         
             defaults.setObject(classArray, forKey: "storedClassArray")
@@ -82,7 +86,7 @@ class FirstViewController: UITableViewController {
             
         }
         
-        table.reloadData()
+        //table.reloadData()
         
     }
 
